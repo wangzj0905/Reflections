@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+# When you initialize a repository, a new repository will be created. Noted that there will be no commits created automatically. Instead, you'll have to do it by yourself.
