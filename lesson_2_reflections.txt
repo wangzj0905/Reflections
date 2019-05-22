@@ -1,2 +1,18 @@
 What happens when you initialize a repository? Why do you need to do it?
 # When you initialize a repository, a new repository will be created. Noted that there will be no commits created automatically. Instead, you'll have to do it by yourself.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+# Files from working directory can be added to staging area, then the entire staging area can be saved as a commit to repository.
+# It gives you a chance to edit before you really add a commit to repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+# Command line 'git diff --staged' can be used to compare the file in staging area and commit in repository. It'll show you how many logical changes there are.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+# There are times when you want to try some experimental features, or some features that are not mature enough to add to commit, you can try to edit the new changes in a new branch.	
+
+How do the diagrams help you visualize the branch structure?
+# diagrams effectively and intuitively show you the history of commits, and the relationships between different branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+# Commits of different branches will be merged into one, and all the changes will be collected in one file. Also, the branch other than master will be merged into master branch and disappear.
